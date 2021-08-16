@@ -29,7 +29,7 @@
 - name: copy admin.conf to my Mac
   ansible.builtin.fetch:
     src: /etc/kubernetes/admin.conf
-    dest: /Users/makuznet/.kube/config/admin.conf
+    dest: /Users/dev/.kube/config/admin.conf
     remote_src: true
     flat: yes
 
